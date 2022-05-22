@@ -30,7 +30,7 @@ public class CancelCall {
 
   public void run() throws Exception {
     Request request = new Request.Builder()
-        .url("http://httpbin.org/delay/2") // This URL is served with a 2 second delay.
+        .url("http://httpbin.org/delay/2") // This URL is served with a 2 second ay.
         .build();
 
     final long startNanos = System.nanoTime();
